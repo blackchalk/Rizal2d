@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{545372CD-B949-3059-B3F5-ECCDB14CBF8D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Act1Scene3RiverSFX.cs" />
+     <Compile Include="Assets\BTSoundEffects.cs" />
+     <Compile Include="Assets\CameraObjectivesManager.cs" />
+     <Compile Include="Assets\CreditsManager.cs" />
+     <Compile Include="Assets\FooNextLVL.cs" />
+     <Compile Include="Assets\GetterScript.cs" />
+     <Compile Include="Assets\InventoryManager.cs" />
+     <Compile Include="Assets\LampSFX.cs" />
+     <Compile Include="Assets\LastMove.cs" />
+     <Compile Include="Assets\MPJoyStick.cs" />
+     <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\New Scenes\Act2Quests.cs" />
+     <Compile Include="Assets\New Scenes\Assets\Gallery\GalleryManager.cs" />
+     <Compile Include="Assets\New Scenes\Assets\Instructions\FadeManager.cs" />
+     <Compile Include="Assets\NewAct4P3Scene2Hints.cs" />
+     <Compile Include="Assets\ObjectsState.cs" />
+     <Compile Include="Assets\PauseScript.cs" />
+     <Compile Include="Assets\PauseScriptCopy.cs" />
+     <Compile Include="Assets\PlayerMovements.cs" />
+     <Compile Include="Assets\PortalACti.cs" />
+     <Compile Include="Assets\Scripts\Act2scene.cs" />
+     <Compile Include="Assets\Scripts\Activate.cs" />
+     <Compile Include="Assets\Scripts\Activate1.cs" />
+     <Compile Include="Assets\Scripts\Activate2.cs" />
+     <Compile Include="Assets\Scripts\Activate3.cs" />
+     <Compile Include="Assets\Scripts\Activate4.cs" />
+     <Compile Include="Assets\Scripts\Activate5.cs" />
+     <Compile Include="Assets\Scripts\Activate6.cs" />
+     <Compile Include="Assets\Scripts\Activate7.cs" />
+     <Compile Include="Assets\Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Scripts\ActivateTubo.cs" />
+     <Compile Include="Assets\Scripts\AutoType.cs" />
+     <Compile Include="Assets\Scripts\BGMusic.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\EndQScene1.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act1S2Title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act1S2TitleNEW.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act2Title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act3Title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act3part2title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act4finalpart.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act4part1title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act4part2title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\Act4part3title.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\After6MONO.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\DialogueScene.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\MONOLOGUE.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\MothdiedFade.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\PressLoadLvl.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\PrologueAS1fade.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\ScreenFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\TextFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\TextFadeInOutFirst.cs" />
+     <Compile Include="Assets\Scripts\FADINGScripts\ThrowingofSlippersTitle.cs" />
+     <Compile Include="Assets\Scripts\GameHistory.cs" />
+     <Compile Include="Assets\Scripts\ImagePositioning.cs" />
+     <Compile Include="Assets\Scripts\KALANG.cs" />
+     <Compile Include="Assets\Scripts\KALANG2.cs" />
+     <Compile Include="Assets\Scripts\OnNPC.cs" />
+     <Compile Include="Assets\Scripts\OnPortal5.cs" />
+     <Compile Include="Assets\Scripts\PortalHereAct1S3Back.cs" />
+     <Compile Include="Assets\Scripts\PortalScripts\Act1S1toS2Portal.cs" />
+     <Compile Include="Assets\Scripts\PortalScripts\Act1S2toS1Portal.cs" />
+     <Compile Include="Assets\Scripts\PortalScripts\Act1S2toS3Portal.cs" />
+     <Compile Include="Assets\Scripts\QuestIndicatorAct3s3b.cs" />
+     <Compile Include="Assets\Scripts\QuestIndicatorAct3s4b.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\Act1Scene1Quest.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\Act1Scene2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\Act1Scene3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\IndicateCondition.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\IndicateConditionAct1Scene2B.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\IndicateConditionAct1Scene3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\IndicateConditionBROTHER.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\IndicateConditionNewAct2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\IndicateConditionPrison.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\Interactor.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\KALANG3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct3Part2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct4FinalPart1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct4FinalPart2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct4Last.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct4Part1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct4Part2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NewAct4Part3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\NotificationCentre.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\ObjectLookup.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\ParticleSortingLayer.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QConditionAct3p2s2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QConditionAct3part2Scene1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact3p2s3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact3p2s4room.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact3p2s7elfili.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact3p2s8roomElfili.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact3part2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4P2S1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4P2S5rm2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4P2S6rm3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4P2S7rm4.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4P2S8clsrm.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4Part2Scene3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4Scene1condition.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4Scene2condition.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4p2s4rm1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4p2s9rm5.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4part2scene2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4part3scene1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QIact4scene1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicator.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorAct3s1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorAct3s3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorAct3s4.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorAct3s4b1.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorBROTHER.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorLogic.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorLogicAct1Scene2B.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorLogicAct1Scene3.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorLogicNewAct2.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestIndicatorPRISON.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\QuestUnlocked.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\TickerMessage.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\TuboChecker.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\chaka.cs" />
+     <Compile Include="Assets\Scripts\QuestScripts\loading.cs" />
+     <Compile Include="Assets\Scripts\Quit.cs" />
+     <Compile Include="Assets\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\Scripts\TouchControls.cs" />
+     <Compile Include="Assets\Scripts\TouchControlsNEW.cs" />
+     <Compile Include="Assets\Scripts\TriggerMusic.cs" />
+     <Compile Include="Assets\Scripts\TriggerTest.cs" />
+     <Compile Include="Assets\Scripts\screenOrientation.cs" />
+     <Compile Include="Assets\Scripts\theend.cs" />
+     <Compile Include="Assets\Scripts\touchButton.cs" />
+     <Compile Include="Assets\SetterScript.cs" />
+     <Compile Include="Assets\Singleton.cs" />
+     <Compile Include="Assets\SpriteChange1.cs" />
+     <Compile Include="Assets\Storage.cs" />
+     <Compile Include="Assets\Store.cs" />
+     <Compile Include="Assets\ToggleObjectives.cs" />
+     <Compile Include="Assets\WhiteScreenInset.cs" />
+     <Compile Include="Assets\shetext.cs" />
+     <None Include="Assets\Fonts\OFL.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

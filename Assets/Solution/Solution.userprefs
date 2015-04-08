@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp-vs" expanded="True">
+            <Node name="Fonts" expanded="True" />
+            <Node name="New Scenes" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Gallery" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Scripts" expanded="True">
+              <Node name="FADINGScripts" expanded="True" />
+              <Node name="PortalScripts" expanded="True" />
+              <Node name="QuestScripts" expanded="True" />
+            </Node>
+            <Node name="PlayerMovements.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp-vs" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
